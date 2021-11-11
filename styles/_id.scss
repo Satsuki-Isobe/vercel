@@ -55,4 +55,9 @@
       margin: 0 auto;
     }
   }
+  @media screen and (max-width: 767px){
+    .main{
+      padding: 0 1.2rem;
+    }
+  }
 }

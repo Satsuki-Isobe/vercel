@@ -23,16 +23,16 @@ export default function Home({ news }) {
                         <Image
                           alt={news.title}
                           src={news.image.url}
-                          width={340}
-                          height={255}
+                          width={352}
+                          height={265}
                           objectFit="cover"
                         />
                       ) : (
                         <Image
                           alt="no image"
                           src={"/images/noImage.png"}
-                          width={340}
-                          height={255}
+                          width={352}
+                          height={265}
                         />
                       )}
                       </div>

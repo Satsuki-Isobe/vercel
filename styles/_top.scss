@@ -1,6 +1,7 @@
 #top {
   max-width: 1088px;
   margin: 0 auto;
+  padding: 0 8rem;
   h1{
     font-family: "URW DIN";
     font-size: 5.8rem;
@@ -44,7 +45,7 @@
             }
             .title{
               font-family: "URW DIN";
-              font: normal;
+              font-weight: normal;
               font-size: 1.8rem;
               letter-spacing: 0;
               line-height: 1.14;  
@@ -55,6 +56,35 @@
     }
     li:last-child{
       margin: 0;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    padding: 0 1.2rem;
+    ul{
+      li{
+        a{
+          .card-box{
+            flex-direction: column;
+            max-width: 352px;
+            margin: 0 auto;
+            box-shadow: 0px 1px 0px rgba(17, 17, 26, 0.05),
+            0px 0px 8px rgba(17, 17, 26, 0.1);    
+            .left{
+              min-width: revert;
+              display: flex;
+              justify-content: center;
+            }
+            .right{
+              width: 100%;
+              margin: 1.6rem 0 0 0;
+              padding: 0px 12px 12px;
+              .title{
+                margin: 8px 0 0 0;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
