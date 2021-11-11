@@ -1,0 +1,58 @@
+#id{
+  max-width: 1088px;
+  margin: 0 auto;
+  .thumbnail{
+    margin: 0 0 8rem 0;
+  }
+  .main{
+    max-width: 904px;
+    margin: 0 auto 23rem;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    .created-at{
+      font-family: "URW DIN";
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 1.41;
+    }
+    h1{
+      font-family: "URW DIN";
+      font-size: 2.6rem;
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 1.41;
+      margin: 0 0 5.5rem 0;
+    }
+    .content{
+      font-family: "URW DIN";
+      font-size: 1.6rem;
+      font-weight: 300;
+      letter-spacing: 0;
+      line-height: 1.16;
+      margin: 0 0 28.5rem 0;
+      p{
+        font-family: "URW DIN";
+        font-size: 1.6rem;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 1.61;
+      }
+    }
+    .back{
+      width: 30rem;
+      height: 7rem;
+      display: block;
+      text-align: center;
+      font-family: "URW DIN";
+      font-size: 2.2rem;
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 7rem;
+      color: #fff;
+      background: #000;
+      margin: 0 auto;
+    }
+  }
+}

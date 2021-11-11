@@ -1,0 +1,19 @@
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: #dadada;
+  height: 14rem;
+  p{
+    font-family: "URW DIN";
+    font-size: 1.2rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #f2f2f2;
+    display: inline-block;
+    margin: 0 0 2.3rem 0;
+    a{
+      text-decoration: underline;
+    }
+  }
+}

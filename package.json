@@ -1,0 +1,33 @@
+{
+  "name": "plusjam-news",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "node": "node ./server/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "formik": "^2.2.9",
+    "microcms-js-sdk": "^2.0.0",
+    "next": "12.0.2",
+    "nodemailer": "^6.7.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.2",
+    "eslint-plugin-tailwindcss": "^1.17.0",
+    "postcss": "^8.3.11",
+    "sass": "^1.43.4",
+    "tailwindcss": "^2.2.19"
+  }
+}
